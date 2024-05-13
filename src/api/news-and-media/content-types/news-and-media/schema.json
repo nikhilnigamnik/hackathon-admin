@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_and_medias",
+  "info": {
+    "singularName": "news-and-media",
+    "pluralName": "news-and-medias",
+    "displayName": "NewsAndMedia",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "banner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "author": {
+      "type": "string"
+    }
+  }
+}

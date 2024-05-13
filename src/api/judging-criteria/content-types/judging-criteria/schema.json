@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "judging_criterias",
+  "info": {
+    "singularName": "judging-criteria",
+    "pluralName": "judging-criterias",
+    "displayName": "JudgingCriteria"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "judgingCriteriaContent": {
+      "type": "blocks"
+    }
+  }
+}

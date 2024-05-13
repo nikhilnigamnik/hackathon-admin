@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "winners_and_prizes",
+  "info": {
+    "singularName": "winners-and-prize",
+    "pluralName": "winners-and-prizes",
+    "displayName": "WinnersAndPrize",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "evaluation": {
+      "type": "string"
+    },
+    "money": {
+      "type": "string"
+    },
+    "offer": {
+      "type": "string"
+    },
+    "banner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

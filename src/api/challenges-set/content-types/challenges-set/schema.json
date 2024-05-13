@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "challenges_sets",
+  "info": {
+    "singularName": "challenges-set",
+    "pluralName": "challenges-sets",
+    "displayName": "Challenges Set",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "banner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

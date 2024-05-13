@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "benefitsof_of_hackathons",
+  "info": {
+    "singularName": "benefitsof-of-hackathon",
+    "pluralName": "benefitsof-of-hackathons",
+    "displayName": "BenefitsofOfHackathon"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "who_can_participates",
+  "info": {
+    "singularName": "who-can-participate",
+    "pluralName": "who-can-participates",
+    "displayName": "WhoCanParticipate"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
